@@ -289,10 +289,10 @@ body {
 /* General Styles for the Navigation Bar */
 .navbar {
   display: flex;
-  justify-content: center; /* Centers the navbar horizontally */
+  justify-content: space-between; /* Distributes space between items */
   background-color: #333;
   padding: 10px 20px; /* Padding for better spacing */
-  position: sticky;
+  /* position: sticky; Makes the navbar sticky */
   top: 0; /* Keeps the navbar at the top when scrolling */
   z-index: 1000; /* Ensures the navbar is above other elements */
 }
@@ -483,10 +483,10 @@ body {
   margin-right: 10px;
 }
 
-.nav-links {
+.navbar .nav-links a{
   list-style: none;
+  width: 70px;
   display: flex;
-  gap: 20px;
 }
 
 .nav-links li a {
@@ -642,19 +642,22 @@ footer {
 /* Style for the Navigation Bar */
 .navbar {
   background-color: #333; /* Background color */
-  padding: 10px 0; /* Spacing around the navbar */
+  margin-left: 0 10px;
+  padding: 10px 0px; /* Spacing around the navbar */
   position: sticky; /* Sticks to the top when scrolling */
   top: 0;
   display: flex; /* Use flexbox */
-  justify-content: center; /* Center the content horizontally */
+  justify-content: space-between; /* Center the content horizontally */
   z-index: 1000; /* Ensure the navbar is on top of other elements */
 }
 
 .nav-list {
   display: flex; /* Align list items in a row */
+  justify-content: space-around;
+  width: 100px;
   gap: 20px; /* Space between the list items */
-  padding: 0; /* Remove default padding */
-  margin: 0; /* Remove default margin */
+  padding: 20px; /* Remove default padding */
+  margin: 10px; /* Remove default margin */
   list-style: none; /* Remove default bullet points */
 }
 
@@ -672,4 +675,9 @@ footer {
 
 .nav-list a:hover {
   color: #00aaff; /* Hover color */
+}
+
+.nav-links .problem_child{
+  margin: 0;
+  gap: 0px;
 }
