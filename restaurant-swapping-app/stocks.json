@@ -1,0 +1,45 @@
+[
+{
+  "name": "Nestlé S.A.",
+  "type": "Stock",
+  "tags": ["Global Reach", "Sustainability", "Innovation"],
+  "symbol": "NESN.SW",
+  "description": "Swiss multinational food and drink processing conglomerate with a focus on sustainability.",
+  "image": "https://logo.clearbit.com/nestle.com"
+},
+{
+  "name": "Novo Nordisk",
+  "type": "Stock",
+  "tags": ["Healthcare", "Innovation", "Global Reach"],
+  "symbol": "NVO",
+  "description": "Danish multinational healthcare company specializing in diabetes care.",
+  "image": "https://logo.clearbit.com/novonordisk.com"
+},
+{
+  "name": "Adidas AG",
+  "type": "Stock",
+  "tags": ["Global Reach", "Sustainability", "Innovation"],
+  "symbol": "ADS.DE",
+  "description": "German multinational designing and manufacturing sportswear and footwear.",
+  "image": "https://logo.clearbit.com/adidas.com"
+},
+{
+  "name": "Vodafone Group",
+  "type": "Stock",
+  "tags": ["Technology", "Innovation", "Global Reach"],
+  "symbol": "VOD",
+  "description": "British multinational telecommunications company with a global footprint.",
+  "image": "https://logo.clearbit.com/vodafone.com"
+},
+{
+  "name": "Unilever",
+  "type": "Stock",
+  "tags": ["Sustainability", "Global Reach", "Innovation"],
+  "symbol": "ULVR.L",
+  "description": "British-Dutch consumer goods company focused on sustainable products.",
+  "image": "https://logo.clearbit.com/unilever.com"
+}
+]
+
+
+  
